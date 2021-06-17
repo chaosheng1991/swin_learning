@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djps.track.ap.dependencies=false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="swin_learning" />
+        <module name="springsecurity" />
+        <module name="elasticsearch" />
+        <module name="redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="elasticsearch" target="1.8" />
+      <module name="redis" target="1.8" />
+      <module name="springsecurity" target="1.8" />
+      <module name="swin_learning" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="elasticsearch" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="springsecurity" options="-parameters" />
+      <module name="swin_learning" options="-parameters" />
+    </option>
+  </component>
+</project>

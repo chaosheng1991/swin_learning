@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticsearch/elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springsecurity/springsecurity.iml" filepath="$PROJECT_DIR$/springsecurity/springsecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swin_learning.iml" filepath="$PROJECT_DIR$/swin_learning.iml" />
+    </modules>
+  </component>
+</project>

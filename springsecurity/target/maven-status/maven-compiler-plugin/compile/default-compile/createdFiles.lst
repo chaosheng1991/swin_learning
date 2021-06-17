@@ -1,0 +1,8 @@
+com\zcs\springsecurity\entity\Users.class
+com\zcs\springsecurity\mapper\UserMapper.class
+com\zcs\springsecurity\config\SecurityConfig.class
+com\zcs\springsecurity\config\SecurityConfig2.class
+com\zcs\springsecurity\entity\Test.class
+com\zcs\springsecurity\controller\TestController.class
+com\zcs\springsecurity\service\MyUserDetailsService.class
+com\zcs\springsecurity\SecurityApplication.class
